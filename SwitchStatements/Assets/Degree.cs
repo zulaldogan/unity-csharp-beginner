@@ -3,7 +3,6 @@ using UnityEngine;
 public class Degree : MonoBehaviour
 {
     public int selectedLevel;
-    private int easy = 0, medium = 1, hard = 2;
 
     void Start()
     {
@@ -19,7 +18,7 @@ public class Degree : MonoBehaviour
                 Debug.Log("You selected Hard");
                 break;
             default:
-                Debug.Log("You didn't select!");
+                Debug.Log("You didn't select");
                 break;
         }
     }
