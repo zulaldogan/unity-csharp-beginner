@@ -1,13 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class IfThenStatement : MonoBehaviour {
-
+public class IfThenStatement : MonoBehaviour
+{
     public int myAge = 26;
-
     public bool canDrink = true;
-
 
     private void Start()
     {
@@ -33,5 +29,3 @@ public class IfThenStatement : MonoBehaviour {
             Debug.Log("You can't!");
         }
     }
-
-}
